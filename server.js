@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     <head>
         <meta property="og:title" content="Rocket Game 🚀" />
         <meta property="og:image" content="https://i.imgur.com/7Vp7bPS.png" />
-        <meta name="fc:frame" content="vNext" />
+       <meta name="fc:frame:post_url" content="https://lasttrader-production.up.railway.app/game" />
         <meta name="fc:frame:image" content="https://i.imgur.com/7Vp7bPS.png" />
         <meta name="fc:frame:button:1" content="Launch Rocket 🚀" />
         <meta name="fc:frame:post_url" content="https://YOUR_RAILWAY_URL.up.railway.app/game" />
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   res.send(html);
 });
 
-app.post('/game', (req, res) => {
+<meta name="fc:frame:post_url" content="https://lasttrader-production.up.railway.app/" />
   const html = `
     <!DOCTYPE html>
     <html>
